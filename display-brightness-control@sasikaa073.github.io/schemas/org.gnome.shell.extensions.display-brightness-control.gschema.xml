@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.display-brightness-control"
+          path="/org/gnome/shell/extensions/display-brightness-control/">
+    <key name="step" type="i">
+      <range min="1" max="25"/>
+      <default>5</default>
+      <summary>Brightness step (percent)</summary>
+    </key>
+    <key name="take-over-brightness-keys" type="b">
+      <default>true</default>
+      <summary>Brightness keys control the display under the cursor</summary>
+    </key>
+    <key name="software-dimming" type="b">
+      <default>true</default>
+      <summary>Use software dimming for displays without DDC/CI</summary>
+    </key>
+    <key name="software-levels" type="a{sd}">
+      <default>{}</default>
+      <summary>Remembered software dimming levels per display</summary>
+    </key>
+    <key name="brightness-up" type="as">
+      <default><![CDATA[['<Control><Super>Page_Up']]]></default>
+      <summary>Increase brightness of the display under the cursor</summary>
+    </key>
+    <key name="brightness-down" type="as">
+      <default><![CDATA[['<Control><Super>Page_Down']]]></default>
+      <summary>Decrease brightness of the display under the cursor</summary>
+    </key>
+    <key name="show-popup" type="as">
+      <default><![CDATA[['<Control><Super>b']]]></default>
+      <summary>Open the brightness popup on the display under the cursor</summary>
+    </key>
+  </schema>
+</schemalist>

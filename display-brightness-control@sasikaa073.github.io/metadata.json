@@ -1,0 +1,8 @@
+{
+  "uuid": "display-brightness-control@sasikaa073.github.io",
+  "name": "Display Brightness Control",
+  "description": "MonitorControl-style brightness for external monitors (DDC/CI via ddcutil), built-in panels and software dimming. Brightness keys and shortcuts act on the display under the mouse cursor.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.display-brightness-control",
+  "version-name": "1.0"
+}

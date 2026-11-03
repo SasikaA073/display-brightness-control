@@ -1,0 +1,23 @@
+.display-brightness-menu {
+  min-width: 22em;
+}
+
+.display-brightness-title {
+  font-weight: bold;
+}
+
+.display-brightness-tag,
+.display-brightness-hint {
+  font-size: smaller;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.display-brightness-value {
+  min-width: 3em;
+  text-align: right;
+  font-feature-settings: "tnum";
+}
+
+.display-brightness-dimmer {
+  background-color: black;
+}
