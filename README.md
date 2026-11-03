@@ -83,3 +83,7 @@ software dimming.
   extensions on the lock screen). DDC/CI brightness is unaffected.
 - If you change brightness with the monitor's own buttons, the slider catches up the
   next time the menu opens, or after 10 seconds on the next key press.
+
+## License
+
+[MIT](LICENSE)
